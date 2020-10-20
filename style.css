@@ -1,0 +1,163 @@
+/* COLOR. SIZE, SPACING, LAYOUT */
+
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: rgb(114, 95, 114);
+	padding: 20px;
+	margin: 24px;
+}
+
+wrapper {
+	display: flex;
+	width: 80%;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 10px solid black;
+
+}
+
+header {
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+#top_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.img_top {
+	background-color:rgb(172, 169, 169);
+	border-radius: 20px solid gray;
+	width: 90%;
+	height: 440px;
+	padding: 20px;
+}
+
+#box2 {
+	background-color: rgb(172, 169, 169);
+	width: 60%;
+	height: 440px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin-bottom: 0%;
+}
+
+.about_header {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+}
+
+.p_about {
+	background-color: whitesmoke;
+	padding: 62px;
+	margin-left: -19px;
+	margin-top: -6px;
+	margin-right: -21px;
+}
+
+a {
+	background-color: whitesmoke;
+	color: black;
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+
+main {
+	background-color: rgb(114, 95, 114);
+}
+
+#bottom_container {
+	background-color: rgb(245,222, 180);
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+	
+}
+
+
+#box_1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#box_2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#box_3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.bottom-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+	
+h1 {
+	background-color: rgb(172, 169, 169);
+	Color: white;
+	padding: 10px
+
+}
+
+.bottom_info {
+	text-align: center;
+}
+
+
+.bottom_container_pic_1 {
+	width: 100%;
+	margin-top: -27px;
+	background-color: white;
+}
+
+
+.bottom_container_pic_2 {
+	width: 100%;
+	margin-top: -27px;
+	background-color: white;
+}
+
+
+.bottom_container_pic_3 {
+	width: 100%;
+	margin-top: -27px;
+	background-color: white;
+}
+
+
+.ico {
+	flex-wrap: wrap;
+}
+
+.btn {
+	background-color: rgb(85, 112, 112);
+    padding: 5px;
+    border-radius: 10px;
+
+}
